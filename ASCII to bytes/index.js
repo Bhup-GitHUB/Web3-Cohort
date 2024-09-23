@@ -11,3 +11,16 @@ function asciitobye(ascii){
 console.log(asciitobye("Hello"));
 
     
+
+//write a code for converting bytes to ascii
+function byttostr(bytes){
+    let str = "";
+    for (let i = 0; i < bytes.length; i++) {
+        str += String.fromCharCode(bytes[i]);
+    }
+    return str;
+}
+
+console.log(byttostr([72,101,108,108,111]));
+
+
