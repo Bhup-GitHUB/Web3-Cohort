@@ -25,3 +25,15 @@ function byttostr(bytes){
 
 
 console.log(byttostr([72,101,108,108,111]));
+
+
+//Encode to base64
+function base64encode(str){
+    return Buffer.from(str).toString('base64');
+}
+
+console.log(base64encode("harkirat"));
+
+
+
+
