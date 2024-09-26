@@ -6,6 +6,7 @@ function asciitobye(ascii){
         bytes.push(ascii.charCodeAt(i));
     }
     return bytes;
+    
 }
 
 console.log(asciitobye("Hello"));
